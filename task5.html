@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h2 style="color: blue; text-align:center;">Registration Form</h2>
+    <div style="border: 1px solid black; display: inline-block; margin-left:325px">
+    <table align="center" border=1px cellspacing=0 width="650px">
+        <form>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" id="f" style="width:500px"></td>
+        </tr>
+
+        
+        <tr>
+            <th>Last Name</th>
+            <td> <input type="text" id="l"style="width:500px"></td>
+        </tr>
+
+        
+        <tr>
+            <th>Email</th>
+            <td>  <input type="email" id="e"style="width:500px"></td>
+        </tr>
+
+        <tr>
+            <th>Password</th>
+            <td><input type="password" id="p"style="width:500px"></td>
+        </tr>
+
+        <tr>
+            <th>Re-Enter Password</th>
+            <td><input type="password" id="rp"style="width:500px"></td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Gender: </th>
+            <td><input type="radio" id="male" name="gender">Male</td>
+        </tr>
+
+        <tr>
+            <td><input type="radio" id="female" name="gender">Female</td>
+        </tr>
+
+        <tr>
+            <th>Age</th>
+            <td><input type="number" id="age" min="0"style="width:500px"> </td>
+        </tr>
+
+
+        <tr>
+            <th>Phone Number</th>
+            <td><input type="tel" id="phone"style="width:500px"> </td>
+        </tr>
+
+        <tr>
+            <th>Address</th>
+            <td><textarea id="add" rows="4" cols="100"style="width:502px"></textarea></td>
+        </tr>
+
+        <tr>
+            <th>State</th>
+            <td><input type="text" id="state"style="width:500px"></td>
+        </tr>
+
+        <tr>
+            <th>Country</th>
+            <td><select id="country" >
+                <option disabled selected value="">Choose your Country</option>
+                <option>India</option>
+                <option>US</option>
+                <option>UK</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <th>Languages Known</th>
+            <td><input type="checkbox" id="eng">English<input type="checkbox" id="kan">kannada<input type="checkbox" id="hin">Hindi<input type="checkbox" id="tel">Telugu</td>
+        </tr>
+    </table>
+    <div>
+        <input type="checkbox" id="dec">Hereby I declare all the given details are true
+    </div>
+    <hr>
+    <div style="margin-left: 490px;">
+        Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website
+    </div>
+</div>
+<br><br>
+    <div align="center">
+        <input type="submit" value="Register" >
+        </form>    
+    </div>
+    
+</body>
+</html>
