@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d{
+            /* text-align: center; */
+            background-color: #75203F;
+            display: inline-block;
+            width: 400px;
+            margin: 25px;
+        }
+        #e{
+            display: inline-block;
+            height: 310px;
+        }
+        label{
+            color:white;
+        }
+    </style>
+</head>
+<body align="center">
+    <div id="e" align="center" style="background-color: rgb(162, 43, 85) ;">
+    <div id="d" align="center">
+    <table style="margin-top : 10px;">
+        <form>
+            <tr>
+                <td><label for="name">Name: </label></td>
+                <td><input type="text" id="name" placeholder="your name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="text" id="name" placeholder="your email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pass">Password: </label></td>
+                <td><input type="password" id="pass"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ph">Phone Number: </label></td>
+                <td><input type="tel" id="ph"></td>
+            </tr>
+
+            <tr>
+                <td><label for="gen">Gender: </label></td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="this">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="this">
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="this">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lan">language: </label></td>
+                <td><select id="lan">
+                        <option disabled selected value="">Select language</option>
+                        <option>Hindi</option>
+                        <option>English</option>
+                        <option>Gujarati</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="zip">Zip Code: </label></td>
+                <td><input type="number" id="zip"></td>
+            </tr>
+
+            <tr>
+                <td><label for="about">About: </label></td>
+                <td><textarea placeholder="write about yourself..." ;"></textarea></td>
+            </tr>
+        
+    </table>
+    <input type="submit" value="Register" style="width:250px; margin-bottom: 15px; font-weight: bold;">
+    </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fff{
+            background-color: rgba(116, 191, 232, 0.916);
+            border: 1px solid;
+        }
+        
+        #a{
+            padding: 10px;
+            border: 1px solid;
+            display: inline-block;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        li{
+            padding: 10px;
+        }
+        #fff a{
+            font-size: 1.5em;
+            margin-left: 5px;
+            margin-right: 100px;
+            color: darkblue;
+            text-decoration: none;
+        }
+        li:hover{
+            background-color: orange;
+            
+        }
+        #a a:hover{
+            color: white;
+        }
+
+        #v{
+            display: inline-block;
+            
+        }
+       table{
+        border-collapse: collapse;
+        background-color: lightgrey;
+        border-color: black;
+       }
+       th,td{
+        height: 5px;
+        border: 1px solid;
+        border-color: blue;
+        padding: 5px;
+        
+       }
+       #nav2 a{
+        text-decoration: none;
+        color: blue;
+        font-size: 1.5em;
+       }
+       td:hover{
+        background-color: grey;
+       }
+       #nav2 a:hover{
+        color: white;
+       }
+        
+    </style>
+</head>
+<body>
+    <h3 id="v">Vertical Navigation bar</h3><br>
+    <div id="a">
+    <nav id="fff">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Java</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">Bootstrap</a></li>
+        </ul>
+    </nav>
+</div>
+<br>
+<h3 id="h">Horizontal Navigation Bar</h3><br>
+<div style="border: 2px solid;display: inline-block;padding-left: 5px;padding-top: 5px;padding-bottom: 5px;">
+<nav id="nav2">
+    <table style="border: 1px solid; ">
+        <tr>
+            <td><a href="">Home</a></td>
+            <td><a href="">Java</a></td>
+            <td><a href="">CSS</a></td>
+            <td><a href="">HTML</a></td>
+            <td><a href="">Bootstrap</a></td>
+        </tr>
+    </table>
+</nav>
+</div>
+</body>
+</html>
